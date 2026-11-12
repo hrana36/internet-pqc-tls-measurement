@@ -1,0 +1,16 @@
+rank,domain,category
+1,google.com,Search / Cloud
+2,cloudflare.com,CDN / Security
+3,github.com,Developer Platform
+4,wikipedia.org,Education / Encyclopedia
+5,microsoft.com,Enterprise / Cloud
+6,amazon.com,E-Commerce / Cloud
+7,apple.com,Consumer Tech
+8,mozilla.org,Browser / Standards
+9,berkeley.edu,Higher Education (US)
+10,utoronto.ca,Higher Education (Canada)
+11,nist.gov,Standards / Government
+12,ietf.org,Internet Standards
+13,cisco.com,Networking Enterprise
+14,fastly.com,Edge CDN
+15,kernel.org,Open Source Infrastructure

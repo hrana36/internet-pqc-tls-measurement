@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "internet-pqc-tls-measurement"
+version = "1.0.0"
+description = "High-Throughput Asynchronous Telemetry & Empirical Measurement of Post-Quantum Cryptography (ML-KEM / X25519Kyber768) and Encrypted Client Hello (ECH) Adoption Across the Global Internet"
+readme = "README.md"
+authors = [
+    { name = "Md Habibur Rahaman Rana", email = "hrana36@gmail.com" }
+]
+license = { text = "MIT" }
+keywords = ["internet-measurement", "post-quantum-cryptography", "pqc", "ml-kem", "kyber", "tls13", "ech", "telemetry", "applied-cryptography"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Topic :: Security :: Cryptography",
+    "Topic :: Internet",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "dnspython>=2.6.0",
+    "cryptography>=42.0.0",
+    "matplotlib>=3.8.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/hrana36/internet-pqc-tls-measurement"
+"Bug Tracker" = "https://github.com/hrana36/internet-pqc-tls-measurement/issues"
